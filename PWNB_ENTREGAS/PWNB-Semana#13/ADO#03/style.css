@@ -52,13 +52,6 @@ input, button, li {
 
 /* -------------------------------------------- */
 
-.controle_alinhamento {
-
-    display: flex;
-    gap: 2.5rem;
-
-}
-
 .caixa_lista {
 
     position: relative;
@@ -80,7 +73,7 @@ input, button, li {
 
     font-size: 1.8rem;
     font-weight: 600;
-    color: rgb(25, 25, 25);
+    color: #1a1a1a;
     margin: 0;
     margin-bottom: 1.5rem;
 

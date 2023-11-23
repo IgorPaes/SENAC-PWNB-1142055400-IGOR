@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário com tabela</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./cadastro.js" type="module" defer></script>
+</head>
+<body>
+    <div class="container_xl">
+        <section class="caixa_principal">
+            <h1>Cadastro</h1>
+            <div class="bloco_inputs">
+                <div class="estilo_padrao_input">
+                    <label for="nome">Primeiro nome</label>
+                    <input id="nome" type="text">
+                </div>
+                <div class="estilo_padrao_input">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input id="sobrenome" type="text">
+                </div>
+                <div class="estilo_padrao_input">
+                    <label for="data">Data Nascimento</label>
+                    <input id="data" type="text">
+                </div>
+                <div class="estilo_padrao_input">
+                    <label for="cep">CEP</label>
+                    <input id="cep" type="text">
+                </div>
+                <div class="bloco_en">
+                    <div class="estilo_padrao_input">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" readonly>
+                    </div>
+                    <div class="estilo_padrao_input">
+                        <label for="uf">UF</label>
+                        <input id="uf" type="text" readonly>
+                    </div>
+                </div>
+                <div class="estilo_padrao_input">
+                    <label for="endereco">Endereço</label>
+                    <input id="endereco" type="text" readonly>
+                </div>
+            </div>
+            <div class="bloco_btns"> 
+                <div class="estilo_btn" id="btn_adicionar">
+                    <button>ADICIONAR</button>
+                </div>
+                <div class="estilo_btn" id="btn_alterar" style="display: none;">
+                    <button>CONFIRMAR ALTERAÇÕES</button>
+                </div>
+                <div class="estilo_btn" id="btn_listar">
+                    <button>CARREGAR LISTA</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
